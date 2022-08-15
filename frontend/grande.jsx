@@ -3,5 +3,5 @@ import ReactDOM from "react-dom";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
-  ReactDOM.render(<h1>Welcome to Tom's Grande App</h1>, root);
+  ReactDOM.render(<h1>hi tom react is working</h1>, root);
 });
