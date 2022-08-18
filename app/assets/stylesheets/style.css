@@ -15,6 +15,10 @@ header li {
   font-weight: 300;
 }
 
+li a {
+  text-decoration: none;
+}
+
 header button,
 .container button {
   padding: 12px 20px;
@@ -36,6 +40,7 @@ header button,
 .intro-text {
   font-size: 85px;
   font-family: "gt-super";
+  letter-spacing: -0.055em;
 }
 
 .starter-text {
