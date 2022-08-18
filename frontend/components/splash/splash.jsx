@@ -1,5 +1,5 @@
 import React from "react";
-import { connect } from "react-redux";
+import connect from "react-redux";
 import Link from "react";
 // import LoginFormContainer from "./session_form/login_form_container";
 
