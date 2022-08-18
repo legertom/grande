@@ -1,6 +1,6 @@
 import React from "react";
-import connect from "react-redux";
-import Link from "react-router-dom";
+import {connect}  from "react-redux";
+import {Link} from "react-router-dom";
 // import LoginFormContainer from "./session_form/login_form_container";
 
 class Splash extends React.Component {
@@ -29,10 +29,9 @@ class Splash extends React.Component {
           <div className="container py-lg">
             <div className="g-w flex align-c">
               <div>
-                <p className="intro-text">Stay Curious</p>
+                <p className="intro-text">Stay Grande</p>
                 <p className="starter-text">
-                  Discover stories, thinking, and expertise from writers on any
-                  topic.
+                  Enjoy the most grande writing on the internet.
                 </p>
                 <button>Start reading</button>
               </div>
