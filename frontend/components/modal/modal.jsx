@@ -3,16 +3,14 @@ import { closeModal } from "../../actions/modal_actions";
 import { connect } from "react-redux";
 import LoginFormContainer from "../session_form/login_form_container";
 import SignupFormContainer from "../session_form/signup_form_container";
-// import EditProfileContainer from '../profile/edit_profile_container';
-// import CreatePostContainer from '../post/create_post_container';
-// import EditPostContainer from '../post/edit_post_container';
 
 function Modal({ modal, closeModal }) {
+  console.log(modal);
   if (!modal) {
     return null;
   }
   let component;
-  switch (modal.modal) {
+  switch (modal) {
     case "Log In":
       component = <LoginFormContainer />;
       break;

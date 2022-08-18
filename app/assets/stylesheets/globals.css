@@ -1,10 +1,21 @@
 @font-face {
   font-family: "sohne";
+  src: url("Sohne-Leicht.woff2");
+}
+
+@font-face {
+  font-family: "sohne-400";
   src: url("Sohne-Buch.woff2");
 }
+
+@font-face {
+  font-family: "sohne-700";
+  src: url("Sohne-Dreiviertelfett.woff2");
+}
+
 @font-face {
   font-family: "gt-super";
-  src: url("GT-Super-Display-Medium.woff2");
+  src: url("GT-Super-Text-Book.woff2");
 }
 
 * {
