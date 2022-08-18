@@ -1,6 +1,6 @@
 import React from "react";
-import {connect}  from "react-redux";
-import {Link} from "react-router-dom";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 // import LoginFormContainer from "./session_form/login_form_container";
 
 class Splash extends React.Component {
@@ -17,7 +17,9 @@ class Splash extends React.Component {
               <li>Our story</li>
               <li>Membership</li>
               <li>Write</li>
-              <Link to="/">Sign in</Link>
+              <li>
+                <Link to="/">Sign in</Link>
+              </li>
               {/* <li>Sign in</li> */}
               <li>
                 <button>Get started</button>
