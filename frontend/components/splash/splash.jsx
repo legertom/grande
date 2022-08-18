@@ -1,6 +1,6 @@
 import React from "react";
 import connect from "react-redux";
-import Link from "react";
+import Link from "react-router-dom";
 // import LoginFormContainer from "./session_form/login_form_container";
 
 class Splash extends React.Component {
