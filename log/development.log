@@ -3027,3 +3027,10 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2022-08-19 10:15:42 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 316ms (Views: 315.8ms | ActiveRecord: 0.0ms)
+
+
