@@ -39,13 +39,15 @@ import { Provider } from "react-redux";
 import { HashRouter } from "react-router-dom";
 import {RecoilRoot} from 'recoil'
 import App from "./App";
-
+import StateContextProvider from "../context/StateContextProvider";
 const Root = ({ store }) => {
   return (
     <Provider store={store}>
     <RecoilRoot>
       <HashRouter>
+      <StateContextProvider>
         <App />
+        </StateContextProvider>
       </HashRouter>
       </RecoilRoot>
     </Provider>

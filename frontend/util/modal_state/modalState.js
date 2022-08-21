@@ -1,13 +1,13 @@
-import { atom, selector } from 'recoil';
+import { atom, selector } from "recoil";
 
 const modalState = atom({
   default: {
     signUpModal: false,
   },
-  key: 'modalState',
+  key: "modalState",
 });
 
-const modalStateSelector = namespace =>
+const modalStateSelector = (namespace) =>
   selector({
     key: namespace,
     get: ({ get }) => get(modalState)[namespace],
@@ -19,4 +19,4 @@ const modalStateSelector = namespace =>
     },
   });
 
-export const signUpModal = modalStateSelector('signUpModal');
+export const signUpModal = modalStateSelector("signUpModal");
